@@ -1,18 +1,6 @@
-# GoJieba [English](README_EN.md)
+# go-on-jieba-rs [English](README_EN.md)
 
-[![Build Status](https://travis-ci.org/yanyiwu/gojieba.png?branch=master)](https://travis-ci.org/yanyiwu/gojieba) 
-[![Author](https://img.shields.io/badge/author-@yanyiwu-blue.svg?style=flat)](http://yanyiwu.com/) 
-[![Performance](https://img.shields.io/badge/performance-excellent-brightgreen.svg?style=flat)](http://yanyiwu.com/work/2015/06/14/jieba-series-performance-test.html) 
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://yanyiwu.mit-license.org)
-[![GoDoc](https://godoc.org/github.com/yanyiwu/gojieba?status.svg)](https://godoc.org/github.com/yanyiwu/gojieba)
-[![Coverage Status](https://coveralls.io/repos/yanyiwu/gojieba/badge.svg?branch=master&service=github)](https://coveralls.io/github/yanyiwu/gojieba?branch=master)
-[![codebeat badge](https://codebeat.co/badges/a336d042-3583-4212-8204-88da4407438e)](https://codebeat.co/projects/github-com-yanyiwu-gojieba)
-[![Go Report Card](https://goreportcard.com/badge/yanyiwu/gojieba)](https://goreportcard.com/report/yanyiwu/gojieba)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/avelino/awesome-go) 
-
-[![logo](http://images.yanyiwu.com/GoJieBaLogo-v2.png)](http://yanyiwu.com/work/2015/09/14/c-cpp-go-mix-programming.html)
-
-[GoJieba]是"结巴"中文分词的Golang语言版本。
+[go-on-jieba-rs] 是"结巴"中文分词的Golang语言版本。
 
 ## 简介
 
@@ -248,10 +236,6 @@ Output:
 
 See example in [bleve_test](bleve/bleve_test.go)
 
-## 性能评测
-
-[Jieba中文分词系列性能评测]
-
 ## 测试
 
 Unittest
@@ -266,16 +250,3 @@ Benchmark
 go test -bench "Jieba" -test.benchtime 10s
 go test -bench "Extractor" -test.benchtime 10s
 ```
-
-## 客服
-
-+ Email: `i@yanyiwu.com`
-+ QQ: 64162451
-+ WeChat: 
-+ ![image](http://7viirv.com1.z0.glb.clouddn.com/5a7d1b5c0d_yanyiwu_personal_qrcodes.jpg)
-
-[CppJieba]:http://github.com/yanyiwu/cppjieba
-[GoJieba]:http://github.com/yanyiwu/gojieba
-[Jieba]:https://github.com/fxsjy/jieba
-[Jieba中文分词系列性能评测]:http://yanyiwu.com/work/2015/06/14/jieba-series-performance-test.html
-[bleve]:https://github.com/blevesearch/bleve
